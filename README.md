@@ -1,1 +1,198 @@
-Vethari Landing Pagge Details
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Inter%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#1173d4",
+              "background-light": "#f6f7f8",
+              "background-dark": "#101922",
+            },
+            fontFamily: {
+              display: ["Inter"],
+            },
+            borderRadius: { DEFAULT: "0.25rem", lg: "0.5rem", xl: "0.75rem", full: "9999px" },
+          },
+        },
+      };
+    </script>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+</head>
+<body class="font-display">
+<div class="relative flex h-auto min-h-screen w-full flex-col overflow-x-hidden bg-background-light dark:bg-background-dark">
+<div class="flex h-full grow flex-col">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-background-light/10 dark:border-background-dark/10 px-10 py-3 text-white">
+<div class="flex items-center gap-4 text-background-dark dark:text-background-light">
+<div class="h-8 w-8 text-primary">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.8261 30.5736C16.7203 29.8826 20.2244 29.4783 24 29.4783C27.7756 29.4783 31.2797 29.8826 34.1739 30.5736C36.9144 31.2278 39.9967 32.7669 41.3563 33.8352L24.8486 7.36089C24.4571 6.73303 23.5429 6.73303 23.1514 7.36089L6.64374 33.8352C8.00331 32.7669 11.0856 31.2278 13.8261 30.5736Z" fill="currentColor"></path>
+<path clip-rule="evenodd" d="M39.998 35.764C39.9944 35.7463 39.9875 35.7155 39.9748 35.6706C39.9436 35.5601 39.8949 35.4259 39.8346 35.2825C39.8168 35.2403 39.7989 35.1993 39.7813 35.1602C38.5103 34.2887 35.9788 33.0607 33.7095 32.5189C30.9875 31.8691 27.6413 31.4783 24 31.4783C20.3587 31.4783 17.0125 31.8691 14.2905 32.5189C12.0012 33.0654 9.44505 34.3104 8.18538 35.1832C8.17384 35.2075 8.16216 35.233 8.15052 35.2592C8.09919 35.3751 8.05721 35.4886 8.02977 35.589C8.00356 35.6848 8.00039 35.7333 8.00004 35.7388C8.00004 35.739 8 35.7393 8.00004 35.7388C8.00004 35.7641 8.0104 36.0767 8.68485 36.6314C9.34546 37.1746 10.4222 37.7531 11.9291 38.2772C14.9242 39.319 19.1919 40 24 40C28.8081 40 33.0758 39.319 36.0709 38.2772C37.5778 37.7531 38.6545 37.1746 39.3151 36.6314C39.9006 36.1499 39.9857 35.8511 39.998 35.764ZM4.95178 32.7688L21.4543 6.30267C22.6288 4.4191 25.3712 4.41909 26.5457 6.30267L43.0534 32.777C43.0709 32.8052 43.0878 32.8338 43.104 32.8629L41.3563 33.8352C43.104 32.8629 43.1038 32.8626 43.104 32.8629L43.1051 32.865L43.1065 32.8675L43.1101 32.8739L43.1199 32.8918C43.1276 32.906 43.1377 32.9246 43.1497 32.9473C43.1738 32.9925 43.2062 33.0545 43.244 33.1299C43.319 33.2792 43.4196 33.489 43.5217 33.7317C43.6901 34.1321 44 34.9311 44 35.7391C44 37.4427 43.003 38.7775 41.8558 39.7209C40.6947 40.6757 39.1354 41.4464 37.385 42.0552C33.8654 43.2794 29.133 44 24 44C18.867 44 14.1346 43.2794 10.615 42.0552C8.86463 41.4464 7.30529 40.6757 6.14419 39.7209C4.99695 38.7775 3.99999 37.4427 3.99999 35.7391C3.99999 34.8725 4.29264 34.0922 4.49321 33.6393C4.60375 33.3898 4.71348 33.1804 4.79687 33.0311C4.83898 32.9556 4.87547 32.8935 4.9035 32.8471C4.91754 32.8238 4.92954 32.8043 4.93916 32.7889L4.94662 32.777L4.95178 32.7688ZM35.9868 29.004L24 9.77997L12.0131 29.004C12.4661 28.8609 12.9179 28.7342 13.3617 28.6282C16.4281 27.8961 20.0901 27.4783 24 27.4783C27.9099 27.4783 31.5719 27.8961 34.6383 28.6282C35.082 28.7342 35.5339 28.8609 35.9868 29.004Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h2 class="text-xl font-bold tracking-tight">Vehtari</h2>
+</div>
+<div class="flex flex-1 justify-end gap-8">
+<div class="hidden items-center gap-8 md:flex">
+<a class="text-sm font-medium text-background-dark/80 hover:text-primary dark:text-background-light/80 dark:hover:text-primary" href="#">How it works</a>
+<a class="text-sm font-medium text-background-dark/80 hover:text-primary dark:text-background-light/80 dark:hover:text-primary" href="#">Pricing</a>
+<a class="text-sm font-medium text-background-dark/80 hover:text-primary dark:text-background-light/80 dark:hover:text-primary" href="#">FAQ</a>
+</div>
+<button class="flex h-10 min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg bg-primary px-4 text-sm font-bold text-white transition-all hover:bg-primary/90">
+<span class="truncate">Get Early Access</span>
+</button>
+</div>
+</header>
+<main class="flex flex-1 justify-center px-4 py-8 sm:px-10 md:px-20 lg:px-40">
+<div class="flex w-full max-w-[960px] flex-col gap-12">
+<div class="relative flex min-h-[480px] flex-col items-start justify-end gap-8 rounded-xl bg-cover bg-center bg-no-repeat p-8 text-white" style='background-image: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.6) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuCn-5r0msCqxIVhqbmb-8i-86qSU-_pC4Ws1bwEPShVsYjb8umIjidQvoAsYOlmr00IzYnwiqjjwoEjq_KlVhDXEKMsh4fg0BH-E6NjyQ1qBup6V5PHDosd28QnqaI1Jic_9gFkyzWK0a_tL-wwaMAtFP4KrsjAT8Bp8kWlsVa84wizz9gex-EKt9fAN15frHt0uVvT-UdRiyQaVnLlmXdpa1OP7d9jZP8fzktEy6VQotMWisRfXsfpB_4CNQonkT3u9Gsuxbg0XI95");'>
+<div class="flex flex-col gap-4">
+<h1 class="text-5xl font-black tracking-tighter">Inspect Before You Invest</h1>
+<h2 class="max-w-2xl text-base font-normal text-white/90">Get a pre-purchase inspection from a certified mobile mechanic before buying a used car. We come to you, so you can buy with confidence.</h2>
+</div>
+<button class="flex h-12 min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg bg-primary px-5 text-base font-bold text-white transition-all hover:bg-primary/90">
+<span class="truncate">Get Early Access</span>
+</button>
+</div>
+<div class="flex flex-col gap-8">
+<h2 class="text-3xl font-bold tracking-tight text-background-dark dark:text-background-light">How it works</h2>
+<div class="grid grid-cols-[auto_1fr] gap-x-6 gap-y-4">
+<div class="flex flex-col items-center">
+<div class="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-white">1</div>
+<div class="h-full w-0.5 bg-primary/20"></div>
+</div>
+<div class="flex flex-col gap-1 pb-8">
+<p class="text-lg font-medium text-background-dark dark:text-background-light">Answer a few questions</p>
+<p class="text-base text-background-dark/70 dark:text-background-light/70">Tell us about the car you're interested in and where it's located.</p>
+</div>
+<div class="flex flex-col items-center">
+<div class="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-white">2</div>
+<div class="h-full w-0.5 bg-primary/20"></div>
+</div>
+<div class="flex flex-col gap-1 pb-8">
+<p class="text-lg font-medium text-background-dark dark:text-background-light">Get matched with a mechanic</p>
+<p class="text-base text-background-dark/70 dark:text-background-light/70">We'll match you with a certified mobile mechanic in your area.</p>
+</div>
+<div class="flex flex-col items-center">
+<div class="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-white">3</div>
+</div>
+<div class="flex flex-col gap-1">
+<p class="text-lg font-medium text-background-dark dark:text-background-light">Get your inspection report</p>
+<p class="text-base text-background-dark/70 dark:text-background-light/70">Receive a detailed inspection report with photos and videos within 24 hours.</p>
+</div>
+</div>
+</div>
+<div class="flex flex-col gap-8 rounded-xl border border-background-dark/10 bg-background-light p-6 dark:border-background-light/10 dark:bg-background-dark sm:p-8">
+<h2 class="text-3xl font-bold tracking-tight text-background-dark dark:text-background-light">Get a free quote</h2>
+<form class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+<select class="h-12 rounded-lg border-background-dark/20 bg-background-light text-background-dark placeholder:text-background-dark/60 focus:border-primary focus:ring-primary dark:border-background-light/20 dark:bg-background-dark dark:text-background-light dark:placeholder:text-background-light/60">
+<option>Select car location</option>
+<option>New York, NY</option>
+<option>Los Angeles, CA</option>
+</select>
+<select class="h-12 rounded-lg border-background-dark/20 bg-background-light text-background-dark placeholder:text-background-dark/60 focus:border-primary focus:ring-primary dark:border-background-light/20 dark:bg-background-dark dark:text-background-light dark:placeholder:text-background-light/60">
+<option>Select car brand</option>
+<option>Toyota</option>
+<option>Honda</option>
+</select>
+<select class="h-12 rounded-lg border-background-dark/20 bg-background-light text-background-dark placeholder:text-background-dark/60 focus:border-primary focus:ring-primary dark:border-background-light/20 dark:bg-background-dark dark:text-background-light dark:placeholder:text-background-light/60">
+<option>Select car type</option>
+<option>Sedan</option>
+<option>SUV</option>
+</select>
+<input class="h-12 rounded-lg border-background-dark/20 bg-background-light text-background-dark placeholder:text-background-dark/60 focus:border-primary focus:ring-primary dark:border-background-light/20 dark:bg-background-dark dark:text-background-light dark:placeholder:text-background-light/60" placeholder="Enter car mileage"/>
+<select class="h-12 rounded-lg border-background-dark/20 bg-background-light text-background-dark placeholder:text-background-dark/60 focus:border-primary focus:ring-primary dark:border-background-light/20 dark:bg-background-dark dark:text-background-light dark:placeholder:text-background-light/60">
+<option>Select inspection location</option>
+<option>At seller's location</option>
+<option>At a public place</option>
+</select>
+<select class="h-12 rounded-lg border-background-dark/20 bg-background-light text-background-dark placeholder:text-background-dark/60 focus:border-primary focus:ring-primary dark:border-background-light/20 dark:bg-background-dark dark:text-background-light dark:placeholder:text-background-light/60">
+<option>How soon do you need the inspection?</option>
+<option>Within 24 hours</option>
+<option>Within 2-3 days</option>
+</select>
+<select class="h-12 rounded-lg border-background-dark/20 bg-background-light text-background-dark placeholder:text-background-dark/60 focus:border-primary focus:ring-primary dark:border-background-light/20 dark:bg-background-dark dark:text-background-light dark:placeholder:text-background-light/60">
+<option>Select inspection type</option>
+<option>Basic Inspection</option>
+<option>Premium Inspection</option>
+</select>
+<input class="h-12 rounded-lg border-background-dark/20 bg-background-light text-background-dark placeholder:text-background-dark/60 focus:border-primary focus:ring-primary dark:border-background-light/20 dark:bg-background-dark dark:text-background-light dark:placeholder:text-background-light/60" placeholder="Enter your name"/>
+<input class="h-12 rounded-lg border-background-dark/20 bg-background-light text-background-dark placeholder:text-background-dark/60 focus:border-primary focus:ring-primary dark:border-background-light/20 dark:bg-background-dark dark:text-background-light dark:placeholder:text-background-light/60" placeholder="Enter your email" type="email"/>
+<input class="h-12 rounded-lg border-background-dark/20 bg-background-light text-background-dark placeholder:text-background-dark/60 focus:border-primary focus:ring-primary dark:border-background-light/20 dark:bg-background-dark dark:text-background-light dark:placeholder:text-background-light/60" placeholder="Enter your phone number" type="tel"/>
+<button class="col-span-1 flex h-12 min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg bg-primary px-5 text-base font-bold text-white transition-all hover:bg-primary/90 sm:col-span-2">
+<span class="truncate">Get a free quote</span>
+</button>
+</form>
+</div>
+<div class="flex flex-col gap-8">
+<h2 class="text-center text-3xl font-bold tracking-tight text-background-dark dark:text-background-light">What our pilot users are saying</h2>
+<div class="grid grid-cols-1 gap-8 md:grid-cols-2">
+<div class="flex flex-col gap-4 rounded-xl border border-background-dark/10 bg-background-light p-6 dark:border-background-light/10 dark:bg-background-dark">
+<div class="flex items-center gap-4">
+<div class="h-12 w-12 rounded-full bg-cover bg-center bg-no-repeat" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCOzTbAhu7iBSz9b91-0i4hTuxoNMm7Q0bbhZZ4ZWdo0QrySlPYi6JvWzJWsqUA6xhh4G8BzF7qF95vYu4GEBgHeohn8s0akArJDvB8jJcCDMY97c_B_asX8Bc-aueLu2n8sldyN-iuS-9pIJ3lZcq0gRMtq5Y6arU-C2tUaCtO8v-B3euW4Gjm1DVksQwism36J3OOwui_8N4P9lJePTRMfxByFQibs_vphh5os8M_kTBYc62ciSbinv19Z2sFpuZj-o-k-uwndo-g");'></div>
+<div class="flex-1">
+<p class="font-medium text-background-dark dark:text-background-light">Ethan Carter</p>
+<p class="text-sm text-background-dark/70 dark:text-background-light/70">May 15, 2024</p>
+</div>
+</div>
+<div class="flex gap-0.5 text-primary">
+<svg fill="currentColor" height="20px" viewBox="0 0 256 256" width="20px" xmlns="http://www.w3.org/2000/svg"><path d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"></path></svg>
+<svg fill="currentColor" height="20px" viewBox="0 0 256 256" width="20px" xmlns="http://www.w3.org/2000/svg"><path d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"></path></svg>
+<svg fill="currentColor" height="20px" viewBox="0 0 256 256" width="20px" xmlns="http://www.w3.org/2000/svg"><path d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"></path></svg>
+<svg fill="currentColor" height="20px" viewBox="0 0 256 256" width="20px" xmlns="http://www.w3.org/2000/svg"><path d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"></path></svg>
+<svg fill="currentColor" height="20px" viewBox="0 0 256 256" width="20px" xmlns="http://www.w3.org/2000/svg"><path d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"></path></svg>
+</div>
+<p class="text-base text-background-dark/90 dark:text-background-light/90">Vehtari saved me from buying a lemon! The mechanic was thorough and professional, and the report was easy to understand. I highly recommend this service.</p>
+</div>
+<div class="flex flex-col gap-4 rounded-xl border border-background-dark/10 bg-background-light p-6 dark:border-background-light/10 dark:bg-background-dark">
+<div class="flex items-center gap-4">
+<div class="h-12 w-12 rounded-full bg-cover bg-center bg-no-repeat" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA7ksgYluYXI6vdON8ipYWcTVNM-cbZlOeEumgJ6mnR3YwGMi-IcZ3kw2N5wzw6t8Qps7lL-E93EtxR0GMROxM3LgTlqO50ixrCSqXciTUoRmxo04WJNmjCYVPBfECjc-QN6iGCIeub2WHHtGlJyjCkOjZKxft2NILuL01IgHBqMLVct4B5gM2iVlJtqawm0-6mTmbWoL0xXJ51-7q4ceAV-eW3iqKrL6HVbF-7nw-HYMAFGvkN2jHIJvjc2X-nEM196uLi7IUanX4S");'></div>
+<div class="flex-1">
+<p class="font-medium text-background-dark dark:text-background-light">Olivia Bennett</p>
+<p class="text-sm text-background-dark/70 dark:text-background-light/70">May 10, 2024</p>
+</div>
+</div>
+<div class="flex gap-0.5 text-primary">
+<svg fill="currentColor" height="20px" viewBox="0 0 256 256" width="20px" xmlns="http://www.w3.org/2000/svg"><path d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"></path></svg>
+<svg fill="currentColor" height="20px" viewBox="0 0 256 256" width="20px" xmlns="http://www.w3.org/2000/svg"><path d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"></path></svg>
+<svg fill="currentColor" height="20px" viewBox="0 0 256 256" width="20px" xmlns="http://www.w3.org/2000/svg"><path d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"></path></svg>
+<svg fill="currentColor" height="20px" viewBox="0 0 256 256" width="20px" xmlns="http://www.w3.org/2000/svg"><path d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"></path></svg>
+<svg fill="currentColor" height="20px" viewBox="0 0 256 256" width="20px" xmlns="http://www.w3.org/2000/svg"><path d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"></path></svg>
+</div>
+<p class="text-base text-background-dark/90 dark:text-background-light/90">I was hesitant to buy a used car, but Vehtari gave me the confidence I needed. The inspection was quick and convenient, and the report was incredibly detailed. Thank you!</p>
+</div>
+</div>
+</div>
+<div class="flex flex-col items-center gap-8 rounded-xl bg-background-light px-6 py-12 text-center dark:bg-background-dark/50 sm:px-10">
+<div class="flex flex-col gap-4">
+<h2 class="text-4xl font-bold tracking-tighter text-background-dark dark:text-background-light">Ready to buy with confidence?</h2>
+<p class="mx-auto max-w-xl text-base text-background-dark/70 dark:text-background-light/70">Get a pre-purchase inspection from a certified mobile mechanic before buying a used car.</p>
+</div>
+<button class="flex h-12 min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg bg-primary px-5 text-base font-bold text-white transition-all hover:bg-primary/90">
+<span class="truncate">Get Early Access</span>
+</button>
+</div>
+<footer class="flex flex-col items-center gap-8 py-10 text-center">
+<div class="flex flex-wrap items-center justify-center gap-x-8 gap-y-4">
+<a class="text-base text-background-dark/70 hover:text-primary dark:text-background-light/70 dark:hover:text-primary" href="#">Terms of Service</a>
+<a class="text-base text-background-dark/70 hover:text-primary dark:text-background-light/70 dark:hover:text-primary" href="#">Privacy Policy</a>
+<a class="text-base text-background-dark/70 hover:text-primary dark:text-background-light/70 dark:hover:text-primary" href="#">Contact Us</a>
+</div>
+<div class="flex justify-center gap-6">
+<a class="text-background-dark/70 hover:text-primary dark:text-background-light/70 dark:hover:text-primary" href="#"><svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg"><path d="M247.39,68.94A8,8,0,0,0,240,64H209.57A48.66,48.66,0,0,0,168.1,40a46.91,46.91,0,0,0-33.75,13.7A47.9,47.9,0,0,0,120,88v6.09C79.74,83.47,46.81,50.72,46.46,50.37a8,8,0,0,0-13.65,4.92c-4.31,47.79,9.57,79.77,22,98.18a110.93,110.93,0,0,0,21.88,24.2c-15.23,17.53-39.21,26.74-39.47,26.84a8,8,0,0,0-3.85,11.93c.75,1.12,3.75,5.05,11.08,8.72C53.51,229.7,65.48,232,80,232c70.67,0,129.72-54.42,135.75-124.44l29.91-29.9A8,8,0,0,0,247.39,68.94Zm-45,29.41a8,8,0,0,0-2.32,5.14C196,166.58,143.28,216,80,216c-10.56,0-18-1.4-23.22-3.08,11.51-6.25,27.56-17,37.88-32.48A8,8,0,0,0,92,169.08c-.47-.27-43.91-26.34-44-96,16,13,45.25,33.17,78.67,38.79A8,8,0,0,0,136,104V88a32,32,0,0,1,9.6-22.92A30.94,30.94,0,0,1,167.9,56c12.66.16,24.49,7.88,29.44,19.21A8,8,0,0,0,204.67,80h16Z"></path></svg></a>
+<a class="text-background-dark/70 hover:text-primary dark:text-background-light/70 dark:hover:text-primary" href="#"><svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg"><path d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160ZM176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24Zm40,152a40,40,0,0,1-40,40H80a40,40,0,0,1-40-40V80A40,40,0,0,1,80,40h96a40,40,0,0,1,40,40ZM192,76a12,12,0,1,1-12-12A12,12,0,0,1,192,76Z"></path></svg></a>
+<a class="text-background-dark/70 hover:text-primary dark:text-background-light/70 dark:hover:text-primary" href="#"><svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm8,191.63V152h24a8,8,0,0,0,0-16H136V112a16,16,0,0,1,16-16h16a8,8,0,0,0,0-16H152a32,32,0,0,0-32,32v24H96a8,8,0,0,0,0,16h24v63.63a88,88,0,1,1,16,0Z"></path></svg></a>
+</div>
+<p class="text-base text-background-dark/70 dark:text-background-light/70">© 2024 Vehtari. All rights reserved.</p>
+</footer>
+</div>
+</main>
+</div>
+</div>
+</body></html>
